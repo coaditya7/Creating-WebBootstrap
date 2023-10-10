@@ -1,0 +1,186 @@
+.main-nav{
+    background-color: #003f88;
+}
+
+ .main-nav .navbar-nav a.nav-link{
+    color: #fff;
+    font-weight: 600;
+
+}
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover{
+    color: #fdc500;}
+
+.navbar .scrolled{
+    background-color: #fff;
+}
+
+a:hover{
+    transition: color 0.5s ease;
+}
+/*untuk global*/
+.main-biru{
+    background-color: #003f88;
+    color: #fff;
+}
+ .main-biru h2 span{
+    color: #fdc500;
+ }
+
+ button.btn-warning{
+     background-color: #fdc500;
+ }
+ h2.main-judul::after{
+     margin: auto;
+     margin-top: 20px;
+     display: block;
+     border-bottom: 10px solid #fdc500;
+     width: 100px;
+     border-radius: 25px;
+     content: "" ;
+
+ }
+
+/*Untuk Bagian Kolaborasi*/
+#main-kolaborasi img{
+    max-height: 50px;
+    max-width: 150px;
+}
+#main-kolaborasi a{
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar.scrolled{
+    background-color: #fff;
+    box-shadow: 0px -10px 30px #666;
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled a.nav-link{
+   color: #666;
+}
+
+.navbar .main-logo{
+    max-width: 150px;
+    max-height: 50px;
+}
+.navbar .main-logo-hitam{
+    display: none;
+}
+.navbar.scrolled img.main-logo-putih{
+    display: none;
+}
+.navbar.scrolled img.main-logo-hitam{
+    display: inline;
+}
+
+/*main-upgrade*/
+.main-upgrade{
+    background-color: #f6f6f6;
+}
+
+p.main-judul{
+    color: #999;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.main-blog{
+    background-color: #f6f6f6;
+}
+.main-blog-info img{
+    width: 50px;
+    border-radius: 150px;
+    position: relative;
+}
+.main-blog-info a{
+    float: left;
+    padding-left: 15px;
+    color: #666;
+    text-decoration: none;
+}
+.main-blog-info span{
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+#blog a{
+    color: #666;
+    text-decoration: none;
+}
+#blog a:hover{
+    color: #fdc500;
+
+}
+
+#blog-detail .main-blog-info{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+#blog-detail .main-blog-info img{
+    float: none;
+
+}
+#blog-detail .main-blog-info span::before{
+    content:"" ;
+    top: 0px;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #ccc;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+
+
+}
+.main-relate-post a{
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.main-relate-post a:hover{
+    color: #fdc500;
+
+}
+/*FOOTER */
+
+.main-footer-menu img{
+    max-width: 175px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.main-footer-menu h3{
+    color: #ccc;
+    margin-bottom: 15px;
+    
+}
+.main-footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-footer-menu a:hover{
+    color: #fdc500;
+}
+.main-footer-menu ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.main-footer-menu ul li{
+    margin-bottom: 5px;
+}
+
+.main-footer-copyright{
+    background-color: #003f88;
+    color: #fff;
+}
+.main-footer-copyright span{
+    color: #fdc500;
+}
